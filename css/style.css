@@ -18,6 +18,16 @@ header {
   z-index: 999;
 }
 
+#gerencia, #atendimento, #erp,
+#internet,
+#operacao,
+#sistemas,
+#suporte {
+  padding-top: 5px;
+  margin-top: -5px;
+
+}
+
 h2 {
   font-family: "Roboto";
   position: relative;
