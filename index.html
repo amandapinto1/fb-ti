@@ -12,9 +12,12 @@
 
 <body>
   <header>
-    <a href="https://github.com/amandapinto1/fb-ti" target="_blank">
-      <img class="logo" src="imagens/logo-colorida.png" alt="Logo Farias Brito" />
-    </a>
+    <!-- <canvas id="matrix" class="matrix"></canvas>-->
+    <div class="logo-container">
+      <a href="#" target="_blank">
+        <img class="logo" src="imagens/logo-colorida-timeti8.png" alt="Logo Farias Brito" />
+      </a>
+    </div>
     <div class="ontop" id="myHeader">
       <div class="progress-bar"></div>
     </div>
@@ -42,6 +45,12 @@
         <li class="nav-item">
           <a href="#suporte" class="nav-link">Suporte</a>
         </li>
+        <li class="nav-item">
+          <a href="#ciencia-de-dados" class="nav-link">Ciência de Dados</a>
+        </li>
+        <li class="nav-item">
+          <a href="#fb-vest" class="nav-link">FB Vest</a>
+        </li>
       </ul>
       <section class="menu-hamb">
         <div class="hamburger">
@@ -57,7 +66,7 @@
   <main>
     <section class="geral">
       <!-- GERENCIA -->
-      <section id="gerencia">
+      <section id="gerencia" class="categorias">
         <div class="titulo-div">
           <p class="titulo">Gerência</p>
         </div>
@@ -77,7 +86,7 @@
       <!-- GERENCIA -->
 
       <!-- ATENDIMENTO -->
-      <section id="atendimento">
+      <section id="atendimento" class="categorias">
         <div class="titulo-div">
           <p class="titulo">Atendimento</p>
         </div>
@@ -97,7 +106,7 @@
       <!-- ATENDIMENTO -->
 
       <!-- ERP -->
-      <section id="erp">
+      <section id="erp" class="categorias">
         <div class="titulo-div">
           <p class="titulo">ERP</p>
         </div>
@@ -149,7 +158,7 @@
       <!-- ERP -->
 
       <!-- INTERNET -->
-      <section id="internet">
+      <section id="internet" class="categorias">
         <div class="titulo-div">
           <p class="titulo">Internet</p>
         </div>
@@ -168,7 +177,7 @@
 
         <div class="func">
           <img class="icon" src="imagens/Equipe/Estevao_Benevides_(Internet).jpg" />
-          <h2 class="icon-título">Estevão</h2>
+          <h2 class="icon-título">Estêvão</h2>
           <p>Analista Júnior</p>
         </div>
 
@@ -177,15 +186,6 @@
           <h2 class="icon-título">Leonel</h2>
           <p>Analista Sênior</p>
         </div>
-
-        <!-- <div class="func">
-            <img
-              class="icon"
-              src="imagens/Equipe/Marcus_Garcia_(Internet).jpg"
-            />
-            <h2 class="icon-título">Marcus Garcia</h2>
-            <p>Analista --</p>
-          </div> -->
 
         <div class="func">
           <img class="icon" src="imagens/Equipe/Washington_Silva_(Internet).jpg" />
@@ -197,7 +197,7 @@
       <!-- INTERNET -->
 
       <!-- OPERAÇÃO -->
-      <section id="operacao">
+      <section id="operacao" class="categorias">
         <div class="titulo-div">
           <p class="titulo">Operação</p>
         </div>
@@ -220,11 +220,10 @@
           <p>Operador Pleno</p>
         </div>
       </section>
-
       <!-- OPERAÇÃO -->
 
       <!-- SISTEMAS -->
-      <section id="sistemas">
+      <section id="sistemas" class="categorias">
         <div class="titulo-div">
           <p class="titulo">Sistemas</p>
         </div>
@@ -242,12 +241,6 @@
         </div>
 
         <div class="func">
-          <img class="icon" src="imagens/Equipe/Helder_Saboia_(Sistemas).jpg" />
-          <h2 class="icon-título">Helder Saboia</h2>
-          <p>Analista Pleno</p>
-        </div>
-
-        <div class="func">
           <img class="icon" src="imagens/Equipe/Hidalgo_Junior_(Sistemas).jpg" />
           <h2 class="icon-título">Hidalgo</h2>
           <p>Analista Sênior</p>
@@ -256,6 +249,12 @@
         <div class="func">
           <img class="icon" src="imagens/Equipe/Ikaro_lopes_(Sistemas).jpg" />
           <h2 class="icon-título">Ikaro Lopes</h2>
+          <p>Analista Júnior</p>
+        </div>
+
+        <div class="func">
+          <img class="icon" src="imagens/Equipe/amanda.png" />
+          <h2 class="icon-título">Amanda Pinto</h2>
           <p>Analista Júnior</p>
         </div>
 
@@ -284,15 +283,15 @@
         </div>
 
         <div class="func">
-          <img class="icon" src="imagens/Equipe/Shirlane.jpg" />
-          <h2 class="icon-título">Shirlane</h2>
-          <p>Estagiária</p>
+          <img class="icon" src="imagens/Equipe/joao-alexandre.png" />
+          <h2 class="icon-título">João Alexandre</h2>
+          <p>Estagiário</p>
         </div>
       </section>
       <!-- SISTEMAS -->
 
       <!-- SUPORTE -->
-      <section id="suporte">
+      <section id="suporte" class="categorias">
         <div class="titulo-div">
           <p class="titulo">Suporte</p>
         </div>
@@ -328,11 +327,65 @@
         </div>
 
         <div class="func">
+          <img class="icon" src="imagens/Equipe/samuel-bastos.jpg" />
+          <h2 class="icon-título">Samuel Bastos</h2>
+          <p>Técnico de Suporte</p>
+        </div>
+
+        <div class="func">
+          <img class="icon" src="imagens/Equipe/jonathan-jefferson.jpg" />
+          <h2 class="icon-título">Jonathan</h2>
+          <p>Técnico de Suporte</p>
+        </div>
+
+        <div class="func">
+          <img class="icon" src="imagens/Equipe/lucas-suporte.png" />
+          <h2 class="icon-título">Lucas Soares</h2>
+          <p>Técnico de Suporte</p>
+        </div>
+
+        <div class="func">
+          <img class="icon" src="imagens/Equipe/valdenir.png" />
+          <h2 class="icon-título">Valdenir Dias</h2>
+          <p>Técnico de Suporte</p>
+        </div>
+
+        <div class="func">
           <img class="icon" src="imagens/Equipe/Weverson_Matos_(Suporte).jpg" />
           <h2 class="icon-título">Weverson</h2>
           <p>Técnico de Redes</p>
         </div>
       </section>
+
+      <!-- Ciencia de Dados -->
+      <section id="ciencia-de-dados" class="categorias">
+        <div class="titulo-div">
+          <p class="titulo">Ciência de Dados</p>
+        </div>
+
+        <div class="func">
+          <img class="icon" src="imagens/Equipe/victor-rocha.png" />
+          <h2 class="icon-título">Victor Rocha</h2>
+          <p>Estagiário</p>
+        </div>
+      </section>
+      <!-- Ciencia de Dados -->
+
+      <!-- FB Vest -->
+      <section id="fb-vest" class="categorias">
+        <div class="titulo-div">
+          <p class="titulo">FB Vest</p>
+        </div>
+
+        <div class="func">
+          <img class="icon" src="imagens/Equipe/davi.jpg" />
+          <h2 class="icon-título">Davi Sisnando</h2>
+          <p>Analista Júnior</p>
+        </div>
+      </section>
+      <!-- FB Vest -->
+
+
     </section>
   </main>
   <script src="js/js.js"></script>
